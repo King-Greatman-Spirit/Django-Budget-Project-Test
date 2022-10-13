@@ -1,0 +1,18 @@
+pip install django virtualenvwrapper
+
+python3 -m pip install --upgrade pip #Pip upgrade
+
+# Once upgraded, install virtualenv using pip3:
+pip3 install virtualenv
+python3 -m venv venv
+# You'll need the full path to the Python 3 version 
+# of virtualenv, so run the following to view it:
+which virtualenv
+
+python3 -m venv venv #To activate venv
+ 
+python manage.py test budget
+
+pip install selenium
+
+python manage.py test functional_tests

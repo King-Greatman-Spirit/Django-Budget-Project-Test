@@ -5,3 +5,8 @@ class ExpenseForm(forms.Form):
     title = forms.CharField()
     amount = forms.IntegerField()
     category = forms.CharField()
+
+
+
+
+
